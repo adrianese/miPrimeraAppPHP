@@ -1,0 +1,131 @@
+body{
+    background-color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.6em;
+    margin: 0;
+
+}
+h1{
+    font-size: 2.5rem;
+    line-height: .5em;
+    text-align: center;
+    color: #892332;
+}
+
+h3{
+    color: rgb(226, 77, 57);
+    text-align: right;
+
+}
+h4{
+    color: rgb(236, 8, 27) ;
+    size: 10px;
+}
+
+.container{
+    width: 85%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.header {
+    background: #333;
+    color: white;
+    padding: .9rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+
+}
+
+.header a {
+    color: blanchedalmond;
+    text-decoration: none;
+}
+.logoNavContainer {
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.navigation ul{
+margin: 0%;
+padding: 0;
+list-style: none;
+
+}
+
+.navigation ul li {
+    display: inline-block;
+}
+
+.navigation ul li a {
+    display: block;
+    padding: 0.5rem 1.5rem;
+
+    transition: all 0.4s linear;
+    border-radius: 6px;
+
+}
+.navigation ul li  a:hover {
+    background: #4a4a4a;
+
+    }
+/* ########################################## */
+
+
+
+#contenedor{
+
+    background-color: azure;
+    height: 300px;
+    width: 50%;
+    margin: 150px auto ;
+    border: 3px black solid;
+    border-radius: 5px;
+
+}
+
+h2{
+    color: rgb(170, 45, 45);
+    size: 100px;
+    margin: 15px;
+    padding: auto;
+    text-align: center;
+  background-color: azure;
+
+}
+
+form{ background-color: azure;
+}
+
+input{
+    font-size: 1rem;
+}
+
+
+
+/* FOOTER */
+
+
+.footer{
+    color: azure;
+    background: #553333;
+    padding: .1rem 0;
+    margin-top: .5rem;
+    text-align: center;
+
+}
+
+.footer h2{
+    background-color:#553333 ;
+    color: azure ;
+
+}
+
+p{
+    font-size: larger;
+    color: red;
+}

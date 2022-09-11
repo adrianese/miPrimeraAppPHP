@@ -1,0 +1,121 @@
+body{
+    background-color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.6em;
+    margin: 0;
+
+}
+h1{
+    font-size: 2.5rem;
+    line-height: .5em;
+    text-align: center;
+}
+
+h3{
+    color: rgb(226, 77, 57);
+    text-align: right;
+}
+p{
+    margin-bottom: .5em;
+}
+.container{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+.header {
+    background: #333;
+    color: white;
+    padding: .9rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+
+}
+
+.header a {
+    color: blanchedalmond;
+    text-decoration: none;
+}
+.logoNavContainer {
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.navigation ul{
+margin: 0%;
+padding: 0;
+list-style: none;
+
+}
+
+.navigation ul li {
+    display: inline-block;
+
+}
+
+.navigation ul li a {
+ 
+    padding: 0.5rem 1.5rem;
+    transition: all 0.4s linear;
+    border-radius: 6px;
+
+}
+.navigation ul li  a:hover {
+    background: #4a4a4a;
+
+    }
+ .main{
+    padding-top: 3rem;
+
+    }
+
+
+.footer{
+    background: #f2f2f2;
+    padding: 1rem 0;
+    margin-top: 4rem;
+    text-align: center;
+
+}
+.curso ul li{
+    text-decoration: none;
+    list-style: none;
+}
+.curso{
+    background-color: rgb(222, 244, 236);
+    width: 850px;
+    border: 1px #333 solid;
+    height: 350px;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1rem;
+    margin: 0 auto;
+
+}
+
+.table_container{
+    background-color: rgb(186, 225, 242);
+    width: 850px;
+    border: 3px #333 solid;
+    height: 350px;
+    text-align: center;
+}
+
+
+.tabla{
+    displa;
+    align-self: center;
+    height: 30%;
+    border: 1px black solid;
+}
+
+.variables{
+    margin-left: 200px;
+
+
+}

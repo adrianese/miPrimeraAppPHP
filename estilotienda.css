@@ -1,0 +1,109 @@
+body{
+    background-color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.6em;
+    margin: 0;
+    margin-top: 80px;
+
+
+}
+
+.container{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+.header {
+    background: #333;
+    color: white;
+    padding: .9rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+
+}
+
+.header a {
+    color: blanchedalmond;
+    text-decoration: none;
+}
+.logoNavContainer {
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.navigation ul{
+margin: 0%;
+padding: 0;
+list-style: none;
+
+}
+
+.navigation ul li {
+    display: inline-block;
+}
+
+.navigation ul li a {
+    display: block;
+    padding: 0.5rem 1.5rem;
+
+    transition: all 0.4s linear;
+    border-radius: 6px;
+
+}
+.navigation ul li  a:hover {
+    background: #4a4a4a;
+ }
+
+
+ .tienda_container{
+
+    background-color: rgb(242, 232, 193) ;
+  height: 600px;
+    position: center;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    padding: 5px;
+    border: black 1px solid;
+
+
+}
+.tienda_container li{
+    list-style: none;
+
+}
+.producto_description{
+
+color: #333;
+text-align: left;
+display: inline;
+position: relative;
+float: left;
+width: 70%;
+font-size: 1rem;
+margin-top: 1rem;
+
+}
+
+
+ h2 h3{
+    font-size:5px;
+    margin: 0;
+    padding: 0;
+ 
+ }
+
+
+
+.footer{
+    background: #f2f2f2;
+    padding: .1rem 0;
+   margin-top: 4rem;
+    text-align: center;
+ 
+}

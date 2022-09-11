@@ -1,0 +1,277 @@
+body{
+    background-color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.6em;
+    margin: 0;
+
+}
+h1{
+    font-size: 2.5rem;
+    line-height: .5em;
+    text-align: center;
+}
+
+h3{
+    color: rgb(226, 77, 57);
+    text-align: right;
+}
+p{
+    margin-bottom: 1.6em;
+}
+.container{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+.header {
+    background: #333;
+    color: white;
+    padding: .9rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+
+}
+
+.header a {
+    color: blanchedalmond;
+    text-decoration: none;
+}
+.logoNavContainer {
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.navigation ul{
+margin: 0%;
+padding: 0;
+list-style: none;
+
+}
+
+.navigation ul li {
+    display: inline-block;
+}
+
+.navigation ul li a {
+    display: block;
+    padding: 0.5rem 1.5rem;
+
+    transition: all 0.4s linear;
+    border-radius: 6px;
+
+}
+.navigation ul li  a:hover {
+    background: #4a4a4a;
+
+    }
+.main{
+    padding-top: 5rem;
+
+    }
+
+
+.footer{
+    background: #f2f2f2;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    text-align: center;
+
+}
+
+/* estilo box */
+section{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
+    height: 4rem;
+    padding: 0 5rem;
+    background-color: white;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+
+}
+
+nav a {
+    font-size: 0.9rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 1rem;
+    color: #474747;
+}
+.ultimos{
+    font-weight: 700;
+    color: black;
+}
+
+.options{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 7rem;
+
+}
+.options img:first-child{
+     width: 1.75rem;
+    }
+.options img{
+        width: 2rem;
+    }
+
+.userMenu{
+    position: absolute;
+    right: 0;
+    bottom: -5.35rem;
+
+display: flex;
+flex-direction: column
+background-color #030303;
+}
+.userMenu a{
+    padding: 0.75rem 2rem;
+
+}
+
+/*main*/
+
+section{
+   
+    background-color: aquamarine;
+}
+h1{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #707070;
+}
+h2{
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 1rem;
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 1rem;
+
+}
+.field {
+    display: flex;
+    flex-direction: column;
+    width: 14rem;
+    margin: 0.5rem;
+}
+.field label{
+    font-size: 0.9rem;
+margin-bottom: 0.2rem;
+color: #696969;
+
+}
+.field input{
+font-size: 1.1rem;
+height: 2.2rem;
+width: 70%;
+padding-left: 0.5rem;
+border: 2px solid #696969;
+border-radius: 5px;
+}
+.field select{
+    font-size: 1.1rem;
+    width: 12rem;
+    height: 2.6rem;
+    padding-left: 0.5rem;
+    border: 2px solid #696969;
+    border-radius: 5px;
+}
+
+.textbox{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    margin: 0.75rem 0;
+}
+.textbox label{
+        font-size: 0.9rem;
+    margin-bottom: 0.2rem;
+    color: #696969;
+}
+textarea{
+    font-size: 1.1rem;
+    max-width: 100%;
+    height: 5rem;
+    max-height: 15rem;
+    padding-top: 0.5;
+    padding-left: 0.5;
+    border: 2px solid #696969;
+    border-radius: 5px;
+}
+
+.gustos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 20rem;
+    margin: 0.75rem 0;
+}
+
+.gustos label{
+    font-size: 0.9rem;
+    margin-bottom: 0.2rem;
+    color: #696969;
+
+}
+.gustos div{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 0.5rem;
+
+}
+.gustos div input{
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+}
+.privacidad{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.submit{
+ display: flex;
+ justify-content: center;
+ margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.submit button{
+    font-size: 1.2rem;
+
+    padding: 00.70rem 1.0rem;
+    border: 2px solid #696969;
+    border-radius: 5px;
+
+}
